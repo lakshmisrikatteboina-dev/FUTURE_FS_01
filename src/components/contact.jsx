@@ -96,7 +96,7 @@ function Contact() {
         </a>
 
         <a
-          href="https://github.com/2410030279-dotcom"
+          href="https://github.com/lakshmisrikatteboina-dev"
           target="_blank"
           rel="noreferrer"
           className="btn"
