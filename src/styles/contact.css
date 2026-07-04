@@ -1,0 +1,85 @@
+.contact {
+  padding: 100px 10%;
+  background: #eef5ff;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 42px;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  margin: 30px 0;
+}
+
+/* Contact Form */
+
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.2);
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.success-message {
+  margin-top: 20px;
+  color: #16a34a;
+  font-size: 18px;
+  font-weight: 600;
+}
