@@ -63,12 +63,12 @@ function Hero() {
 
        <div className="social-icons">
   <a
-    href="https://github.com/2410030279-dotcom"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <FaGithub />
-  </a>
+  href="https://github.com/lakshmisrikatteboina-dev"
+  target="_blank"
+  rel="noreferrer"
+>
+  <FaGithub />
+</a>
 
   <a
     href="https://www.linkedin.com/in/lakshmi-sri-katteboina-89ba363b2/"
