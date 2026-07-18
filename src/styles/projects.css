@@ -1,40 +1,64 @@
 .projects {
-  padding: 100px 10%;
-  background: white;
+  padding: 80px 10%;
+  background: #f9fafb;
   text-align: center;
 }
 
 .projects h2 {
-  font-size: 42px;
-  color: #2563eb;
+  font-size: 2.5rem;
+  color: #222;
   margin-bottom: 50px;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
 }
 
 .project-card {
-  background: #f8fbff;
+  background: #ffffff;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: left;
 }
 
 .project-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 15px 30px rgba(37,99,235,0.2);
+  box-shadow: 0 15px 35px rgba(108, 99, 255, 0.2);
 }
 
 .project-card h3 {
-  color: #2563eb;
+  color: #6c63ff;
   margin-bottom: 15px;
+  font-size: 1.4rem;
 }
 
 .project-card p {
   color: #555;
-  line-height: 1.6;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  text-decoration: none;
+  background: #6c63ff;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  background: #574fe3;
+  transform: translateY(-2px);
 }
